@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mr Cue</title>
+    <!-- Link to css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Box Icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <!--Logo-->
+        <a href="#" class="logo">
+            <img src="img/home1.png" alt="logo">
+        </a>
+        <!-- Menu Icon-->
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <!-- Links -->
+         <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#location">Location</a></li>
+         </ul>
+    </header>
+
+    <!--Home section-->
+    <section class="home" id="home">
+        <div class="home-img">
+            <h1><center>welcome to</center></h1>
+            <img src="/img/home2.png" alt="">
+        </div>
+    </section>
+
+    <!--Gallery-->
+    <section class="gallery">
+        <div class="gallery-container">
+            <div class="gallery-box" id="gallery-box-1">
+                <div class="heading">
+                    <hr>
+                    <h1>Gallery</h1>
+                </div>
+                <img src="img/full-view.jpg" alt="">
+                <img src="img/table.jpg" alt="">
+                <img src="/img/mahjong.jpg" alt="">
+            </div>
+            <div class="gallery-box" id="gallery-box-2">
+                <img src="/img/home.jpg" alt="">
+                <img src="/img/pool.jpg" alt="">
+            </div>
+        </div>
+        
+    </section>
+
+    <!--Pricing section-->
+    <section class="pricing" id="pricing">
+        <div class="heading">
+            <hr>
+            <h1>Pricing</h1>
+        </div>
+        <div class="pricing-container">
+            <div class="pricing-1">
+                <div class="box">
+                    <h2>Pool</h2>
+                    <div class="content">
+                        <span>Weekday before 7pm: $<span class="price">14</span>/hr<hr size="5" color="#FFC0CB">Rest of time: <br>$<span class="price">19</span>/hr</span>      
+                    </div>
+                </div>
+            </div>
+            <div class="pricing-2">
+                <div class="box">
+                    <h2>Mahjong</h2>
+                    <div class="content">
+                        <span> $<span class="price">15</span>/hr</span>
+                    </div>
+                </div>
+            </div>
+            <div class="pricing-3">
+                <div class="box">
+                    <h2>Darts</h2>
+                    <div class="content">
+                        <span>$<span class="price">20</span>/hr</span>
+                    </div>
+                </div>
+        </div>
+        </div>
+        <hr>
+    </section>
+
+    <!--Location section-->
+    <div class="location" id="location">
+        <div class="map-holder" id="map-holder"></div>
+    </div>
+    <br><br>
+    <hr style="width: 80%; margin-left: 10%;">
+    <section class="footer">
+        <div class="footer-box">
+            <img src="/img/home1.png" alt="" class="footer-logo">
+        </div>
+        <div class="footer-box">
+            <h2>Opening Hours</h2>
+            <br>
+            <h3>Monday - Thursday</h3>
+            <h1>2pm - Midnight</h1>
+            <h3>Friday - Sunday</h3>
+            <h1>1pm - Midnight</h1>
+            <h3>Open 7 days a week</h3>
+        </div>
+        <br><br>
+
+        <div class="footer-box" id="contact">
+            <h2>Contact us</h2>
+            <br>
+            <i class='bx bx-phone'> (03) 9898 8940</i>
+            <br>
+            <i class='bx bx-envelope'> robinscue@gmail.com</i>
+            <br>
+            <i class='bx bx-current-location'> L1, 973 Whitehorse Road <br>Box Hill, VIC 3128</i>
+        </div>
+        
+        <div class="footer-box">
+            <h2>Social Link</h2>
+            <br>
+            <i class='bx bxl-instagram'><a href="https://www.instagram.com/mrcuepool/"> mrcuepool</a></i>
+            <br>
+            <img src="/img/mrcuepool_qr.png" alt="" class="qr-code">
+        </div>
+    </section>
+    
+    <section class="">
+
+    </section>
+
+    
+    <!-- Link to JS-->
+    <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIAF0-G8LZd_4mTmaZpjSKk5EufhUFYqw&callback=initMap"></script>
+    <script src="main.js"></script>
+     
+    
+</body>
+
+
+</html>
